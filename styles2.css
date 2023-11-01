@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav {
+    display: flex; 
+    position: fixed;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center; 
+    background: rgb(139,219,152);
+    background: linear-gradient(97deg, rgba(139,219,152,1) 10%, rgba(196,223,255,1) 50%, rgba(125,117,246,1) 100%);
+    padding: 25px;
+    z-index: 1;
+    
+}
+
+
+
+.container{
+    text-indent: 30px;
+    text-align: center;
+    line-height: 40px;
+    justify-content: space-around;
+}
+
+.img_rsponsive {
+    width: 100%;
+    height: auto;
+   
+}
+
+.parallax-image {
+    display: block;
+    height: 940px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.parallax-image-01 {
+    background-image: url("https://f.tpkcdn.com/review-source/42de8397-8cce-8211-e115-56406ae074b9.JPG");
+}
+
+.parallax-image-02 {
+    background-image: url("https://ik.imagekit.io/tvlk/blog/2017/10/Pang-Ung-1.jpg?tr=dpr-2,w-675");
+
+}
+
+.parallax-image-03 {
+    background-image: url("https://พาเที่ยวไทย.com/wp-content/uploads/2023/03/2cc898ca-5f6b-4c41-98c5-eb20345c4ed9.jpg");
+}
+
+.parallax-image-04 {
+    background-image: url("https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03006201_1.jpeg");
+}
+
+.parallax-image-05 {
+    background-image: url("https://th.readme.me/f/12540/59c3cba88dd29706373872db.jpg");
+}
+
+.parallax-image-06 {
+    background-image: url("https://www.ท่องทั่วไทย.com/wp-content/uploads/2016/02/taradnamdumnern-04.jpg");
+}
+
+.parallax-image-07 {
+    background-image: url("https://media.komchadluek.net/media/img/size1/2021/06/30/jc5bh7eda6cdbaik8cbch.jpg");
+}
+
+.parallax-image-08 {
+    background-image: url("https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03013914_1.jpeg");
+}
+
+.parallax-image-09 {
+    background-image: url("https://www.tripgether.com/wp-content/uploads/2023/02/Samed-Cabana-Resort6.jpg");
+}
+
+.parallax-image-10 {
+    background-image: url("https://itp1.itopfile.com/ImageServer/9ab8e5ef63ad212e/766/0/%E0%B8%96%E0%B8%99%E0%B8%99%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%84%E0%B8%B2%E0%B8%99-chiang-khan-walking-streetz-z1240309619999.webp");
+}
+
+.parallax-image-11 {
+    background-image: url("http://www.nongnoktha.go.th/news/gallery/Y8QCh4c2h9bm-999379_536796813041515_940511080_n.jpg");
+}
+
+.parallax-image-12 {
+    background-image: url("https://s359.kapook.com/pagebuilder/bfef72f1-054c-4fda-9d55-07f8cfac315b.jpg");
+}
+
+.parallax-image-13 {
+    background-image: url("https://f.ptcdn.info/780/071/000/qkjiz1la4AQPq3XAWB3-o.jpg");
+}
+
+.parallax-image-14 {
+    background-image: url("https://image.makewebeasy.net/makeweb/m_1920x0/Pu30DKl1p/DefaultData/%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%991.jpg?v=202012190947");
+}
+
+.parallax-image-15 {
+    background-image: url("https://i0.wp.com/www.relaxtrip2018.com/wp-content/uploads/2019/08/69122789_901211350259012_8356095449756598272_o-1.jpg?resize=640%2C480&ssl=1");
+}
+
+
+section {
+    padding: 64px;
+}
+
+section > h2 {
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+footer {
+    background: rgb(139,219,152);
+    background: linear-gradient(97deg, rgba(139,219,152,1) 10%, rgba(196,223,255,1) 50%, rgba(125,117,246,1) 100%);
+    padding: 2px;
+    text-align: center;
+}
